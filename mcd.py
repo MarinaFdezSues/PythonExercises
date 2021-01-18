@@ -1,0 +1,1 @@
+#Implementar una función que reciba dos números y devuelva el máximo común divisor (Algoritmo de Euclides: https://es.wikipedia.org/wiki/Algoritmo_de_Euclides)
