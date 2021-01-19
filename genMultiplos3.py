@@ -1,1 +1,0 @@
-#Implementar un generador que reciba un número y devuelva los múltiplos de 3 de ese número

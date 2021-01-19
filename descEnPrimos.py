@@ -28,12 +28,12 @@ def primo(n):
 def divisoresPrimos(num):
 	divisores=[]
 	primo=2
-	while(primo<num):
+	while(primo<=num):
 		resto=num%primo
 		if (resto==0):
 			divisores.append(primo)
 		primo=sigPrimo(primo)
 	return divisores
 
-numero = 588
+numero = 1000003 
 print(numero, ' se descompone en:',descEnPrimos(numero))
