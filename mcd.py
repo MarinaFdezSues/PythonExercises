@@ -10,4 +10,6 @@ def mcd(a,b):
 	else:
 		return(mcd(b,a%b))
 
-print(mcd(406,158))
+a = int(input())
+b = int(input())
+print(mcd(a,b))

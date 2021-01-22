@@ -1,8 +1,7 @@
 def dosPrimCarac(c):
 	return c[:2]
 
-def tresUltCarac(c):
-	return c[len(c)-3:]
+def tresUltCarac(c): return c[len(c)-3:]
 
 def cadenaCadaDosCarac1(c):
 	i = 0
@@ -20,8 +19,7 @@ def cadenaCadaDosCarac2(c):
 		i += 2
 	return txt.strip()
 
-def cadenaInvertida(c):
-	return c[::-1]
+def cadenaInvertida(c): return c[::-1]
 
 cadena = 'cadena de prueba'
 print('Dos primeros caracteres de la cadena:')

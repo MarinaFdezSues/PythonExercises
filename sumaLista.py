@@ -1,4 +1,7 @@
 def  sumaLista(lnums):
+	return (sum(lnums))
+
+def  sumaLista(lnums):
 	suma=0
 	for x in lnums:
 		suma=suma+x

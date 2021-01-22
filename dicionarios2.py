@@ -8,7 +8,6 @@ def diccionarios1(cadena):
     dic={l : lista.count(l) for l in lista}
     return dic
 
-
 #cadena = "Una cadena y una prueba"
 #cadena = "#qUITo@ ¡varias@! ¿co€sas? varias."
 cadena = "Mi casa, mi coche y mi otro coche"
